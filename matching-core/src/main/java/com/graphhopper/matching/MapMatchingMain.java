@@ -56,7 +56,7 @@ public class MapMatchingMain {
 
             args.put("graph.flag_encoders", flagEncoders);
             args.put("datareader.file", args.get("datasource", ""));
- 	     args.put("graph.bytes_for_flags", 8);
+ 	   //  args.put("graph.bytes_for_flags", 8);
 
 
 
