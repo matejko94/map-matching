@@ -56,6 +56,9 @@ public class MapMatchingMain {
 
             args.put("graph.flag_encoders", flagEncoders);
             args.put("datareader.file", args.get("datasource", ""));
+ 	     args.put("graph.bytes_for_flags", 8);
+
+
 
             // standard should be to remove disconnected islands            
             if (!args.has("prepare.min_one_way_network_size")) {
