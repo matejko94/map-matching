@@ -5,4 +5,4 @@ exec >> map-matching-service.log
 exec 2>&1
 
 
-./map-matching.sh action=start-server 
+./map-matching.sh action=start-server vehicle=car,bike,foot
